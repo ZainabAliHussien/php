@@ -1,0 +1,21 @@
+<?php
+$day=15;
+
+if($day==1)
+    { echo "sunday" ;}
+else if ($day==2)
+    { echo "monday" ;}
+else if ($day==3)
+    { echo "tuesday" ;}
+else if ($day==4)
+    { echo "wednesday" ;}
+else if ($day==5)
+    { echo "thursday" ;}
+else if ($day==6)
+    { echo "friday" ;}
+else if ($day==7)
+    { echo "saturday" ;}
+else 
+    { echo "no day with this value" ;}
+
+?>
