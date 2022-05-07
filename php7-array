@@ -1,0 +1,40 @@
+<?php
+    $colors=array("red","blue","green","yellow","black");
+    for($i=0;$i<count($colors);$i++)
+    {
+        echo $colors[$i]."<br>";
+    }
+
+echo "<br>-------------------------------------<br>";
+    foreach ($colors as $color)
+     {
+        echo $color."<br>" ;
+     }
+    echo "<br>-------------------------------------<br>";
+?>
+
+<?php
+
+    $students =array('ahmed'=> 90 , 'ali'=> 75 ,'mohamed'=>55);
+    foreach ($students as $key => $value) {
+        echo "student ".$key." got: ".$value."<br>" ;
+    }
+    echo "<br>-------------------------------------<br>";
+    ?>
+    <html>
+    <head> <title> aa </title> </head>
+    <body>
+    <table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Score</th>
+    </tr>
+    <?php
+    foreach ($students as $key => $value) {
+        echo "<tr><td>".$key."</td><td>".$value."</td></tr>" ;
+    }
+    ?>
+    </table>
+    </body>
+    </html>
+     
