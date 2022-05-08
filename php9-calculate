@@ -1,0 +1,17 @@
+<?php
+ 
+ if($_POST['operate'] == "sum") {
+ $z = $_POST['no1'] + $_POST['no2'];
+ }
+ else if($_POST["operate"] == "sub") {
+    $z = $_POST["no1"] - $_POST["no2"];
+    }
+else if($_POST["operate"] == "multiple") {
+    $z = $_POST["no1"] * $_POST["no2"];
+    }
+else if($_POST["operate"] == "div") {
+    $z = $_POST["no1"] / $_POST["no2"];
+    } 
+echo $z;
+
+?>
