@@ -1,0 +1,6 @@
+<?php
+function w($fname,$lname){
+    echo "welcome ,".$fname." ".$lname;
+}
+echo w("zainab","ali") ;
+?>
